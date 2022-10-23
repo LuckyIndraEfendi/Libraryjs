@@ -1,0 +1,11 @@
+const pilih = document.querySelector("#pilih")
+const kirim = document.querySelector("button")
+kirim.addEventListener("click",function(){
+    if(pilih.value == "select"){
+        console.log("Gak Bisa di Click")
+    } else if(pilih.value == "Jokowi"){
+        console.log("Kamu Benar")
+    } else {
+        console.log("Kamu Salah")
+    }
+})
