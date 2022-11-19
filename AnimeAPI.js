@@ -1,4 +1,4 @@
-const animeData = [
+ [
     {
         tittle : `Date a Live IV`,
         image : `asset/img/top anime/Date-A-Live-IV.png`,
